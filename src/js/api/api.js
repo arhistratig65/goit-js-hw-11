@@ -6,7 +6,7 @@ export async function getPhotos(inputValue, page) {
     try {
       return await axios.get('https://pixabay.com/api/', {
         params: {
-            key: '37265508-698720a89f242e7ec4ebdb49a',
+            key: '37679975-c61ca7dd5cf5e93b8af868242',
             q: inputValue,
             image_type: 'photo',
             orientation: 'horizontal',
